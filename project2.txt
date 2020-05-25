@@ -1,0 +1,256 @@
+<!DOCTY{PE html>
+<html>
+<head>
+	<title>PROJECT 2</title>
+		<!--
+1. assign classes and id to multiple tags 
+2. align them in the center 
+3. changed the background color 
+4. text color of every tags
+5.apply padding,float,,border,width,margin etc properties on them-->
+		<!--NOW APPLY CSS RESET STYLESHEET-->
+	<style >
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, ,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output,  section, summary,
+time, mark, audio, video {
+  margin: 10;
+	padding: 15;
+	border: 4;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* focus styles for accessibility */
+:focus {
+    outline: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+input[type=search] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+
+		#head1,#main1,#foot1{
+			text-align: center;
+			height: auto;
+			width: auto;
+		}
+		#foot1,#la1,#la2,#la3,#la4{
+			margin-top: 20px;
+			width: 80%;
+			padding: 2%;
+			margin-left: 6%;
+			text-align:center;
+			border:2px solid blue;
+			border-radius: 5px;
+			font-style: bold;
+			font-size: 16px;
+			background-color:lightgreen;
+
+			
+		}
+		.navbar{
+			width:100%;
+			background-color: grey;
+			overflow: auto;
+		}
+		.navbar a{
+			float: left;
+			padding: 12px;
+			color:white;
+			font-size: 20px;
+
+		}
+		.navbar a:hover{
+			background-color: brown;
+		}
+		.active{
+			background-color: Blue;
+		}
+		@media  screen and (max-width: 500px){
+			.navbar a{
+				float: none;
+				display: block;
+			}
+		}
+		@media screen and (max-width: 700px) {
+			#head1,#main1,#foot1{
+				font-size: 25px;
+				padding: 30px;
+				border: 6px solid pink;
+			
+		}
+	}
+	@media screen and (max-width: 550),(min-width: 400) {
+		#head1,#main1,#foot1{
+			font-size: 10px;
+			padding: 20px;
+			border:8px solid magenta;
+		
+	}
+}
+#head1{
+	color:white;
+}
+.para1,.para2,.para3,.para4{
+	color:BROWN;
+	background-color: lightblue;
+}
+.logo{
+	width: 46px;
+}
+
+
+	</style>
+
+
+</head>
+<!--CHANGE THE BACKGROUND COLOR OF MY WESBSITE ;)-->
+
+<body background="
+http://cdn29.us1.fansshare.com/pictures/wallpapersforios7/pink-green-gradient-ios-ipad-wallpaper-hd-download-technology-photo-ios-hd-wallpaper-856006553.jpg
+ " style="background-size: cover;">
+
+
+		<!--MENU-->
+		<div class="navbar">
+			<img  class center="logo" width="90" height="50"src="https://static.wixstatic.com/media/d7f1db_a3e39fd186d745be826878c9bbfc9316~mv2.jpg/v1/fill/w_167,h_107,al_c,q_80,usm_0.66_1.00_0.01/WHITE.webp">
+			<a href="#" class="active">HOME</a>
+			<a href="#" >PROJECTS</a>
+			<a href="#">CONTACT US</a>
+			
+		</div>
+
+	<!--START OF AN HEADER-->
+	<header id="head1">
+	<!--HEADING AND PARAGRAGH-->
+	<H1 >THE WORLDXT</H1>
+	<P >INTERIOR DESIGNING, HOUSE PLANNING AND ENGINEERING</P>
+	</header>
+	<!--END OF HEADER-->
+
+<main id="main1">
+
+
+	<!--MAIN CONTENT  USING U AND IFRAME TAGS WHERE The <u> element was originally used to identify text that should be underlined AND An IFrame (Inline Frame) is an HTML document embedded inside another HTML document on a website.videos-->
+		<DIV class="para1">
+			<H2>ABOUT US</H2>
+			<U>
+
+WORLDXT is a team of architects, civil engineers, interior designers and a lot of software engineers who love designing, who love construction, who love seeing a idea turn into a beautiful home.
+</U>
+		
+		
+		<iframe width="700" height="600" src="https://www.youtube.com/embed/tDXdDFWeyXE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+"></iframe>
+</DIV>
+		<div class="para2">
+			<h3>INTERIOR DESIGNING</h3>
+			<u>
+				Interior design is the art and science of enhancing the interior of a building to achieve a healthier and more aesthetically pleasing environment for the people using the space.</u>
+	
+	
+	<iframe width="700" height="600" src="https://www.youtube.com/embed/v_s7lpikWQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div class="para3" >
+			<h4>ENGINEERING</h4>
+			<u>
+				Architectural engineering, also known as building engineering or architecture engineering, is an engineering discipline that deals with the technological aspects and multi-disciplinary approach to planning, design.</u>
+		
+		
+          <iframe width="700" height="600" src="https://www.youtube.com/embed/QXwSEPXdavs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div class="para4" >
+			<h5>HOUSE PLANNING</h5>
+			<u>
+				Make My Hosue Platform provide you online latest Indian house design and floor plan, 3D Elevations for your dream home designed by India's top architects.
+</u>
+	
+		
+<iframe width="700" height="600" src="https://www.youtube.com/embed/FHPq_SWErcs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+
+		</div>
+		
+              </main>
+		<!--END OF THE MAIN BODY-->
+
+<!--START OF FOOTER USING INPUT,BUTTON,LABEL AND TEXTAREA TAGS WHERE The <input> tag specifies an input field where the user can enter data.The <label> defines a text label for the <input> tag.The <button> tag is used to create clickable buttons on the web page-->
+	<footer id="foot1">
+		<DIV id="la1">
+		<LABEL>NAME</LABEL>
+		<input type="text" name="fname" placeholder="enter your name">
+	</DIV>
+	<div id="la2">
+		<label>EMAIL ID</label>
+		<input type="text" name="lname" placeholder="enter your Email ID">
+	</div>
+	<div id="la3">
+		<label>COMMENT</label>
+		<textarea></textarea>
+	</div>
+	<div id="la4">
+	<form action="https://help.formstack.com/hc/article_attachments/360015218271/image-1.jpeg">
+		<input type="submit" value="submit">
+	</form>
+	</div>
+	</footer>
+	<!--END OF FOOTER-->
+</body>
+</html>
